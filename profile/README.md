@@ -9,7 +9,6 @@ We are an organization dedicated to training and developing innovative solutions
 
 ## Featured Projects
 Our repositories reflect our mission to innovate and educate:
-- **Smart Meter Dashboard**: Advanced real-time energy consumption visualization using Next.js and Tailwind CSS.
 - **IOTA NFT Marketplace**: A platform for minting and trading NFTs with a focus on efficiency and user experience.
 - **zkLogin Integration**: Implementation of secure, gasless authentication to facilitate mass Web3 adoption.
 
