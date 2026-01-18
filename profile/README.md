@@ -85,7 +85,7 @@ Test your knowledge and **earn real MEMO tokens** on Ethereum Sepolia!
 | Layer          | Technologies                                      |
 | -------------- | ------------------------------------------------- |
 | **Frontend**   | Next.js 15, React 19, Tailwind CSS, Framer Motion |
-| **Backend**    | Supabase (PostgreSQL), Prisma 7, Server Actions   |
+| **Backend**    | Supabase (PostgreSQL), Next.js Server Actions     |
 | **Auth**       | Privy (Web3 wallets), Supabase Auth (email)       |
 | **Blockchain** | Ethereum Sepolia, MEMO ERC-20 Token               |
 | **DevOps**     | Vercel, GitHub Actions                            |
