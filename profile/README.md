@@ -1,106 +1,116 @@
-# Memento Academy
-
-**Free educational platform designed for Web3 newcomers. We simplify Cryptocurrencies, CBDCs, and Blockchain technology with zero costs for the community.**
+<div align="center">
+  
+  # Memento Academy
+  
+  **Free Web3 education for everyone. Learn Crypto, DeFi, NFTs, and Blockchain — zero cost, real rewards.**
+  
+  [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+  [![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
+  [![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3ECF8E?style=flat-square&logo=supabase)](https://supabase.com/)
+  [![Ethereum](https://img.shields.io/badge/Ethereum-Sepolia-3C3C3D?style=flat-square&logo=ethereum)](https://ethereum.org/)
+  [![Privy](https://img.shields.io/badge/Privy-Auth-6366F1?style=flat-square)](https://privy.io/)
+  
+  [Live Platform](https://memento-academy.com) • [Courses](https://memento-academy.com/courses) • [Play Quiz](https://memento-academy.com/game)
+</div>
 
 ---
 
 ## About Us
 
-Memento Academy is a learning and development ecosystem focused on today's most disruptive technologies. We are an organization dedicated to training and developing innovative solutions in the **Web3**, **Blockchain**, and **Intelligent Systems** space.
+We're an educational ecosystem focused on Web3, Blockchain, and decentralized technologies. Our mission: **bridge the gap between complex crypto concepts and everyday people**.
 
-We believe in the power of decentralization, especially within the **IOTA** ecosystem, and in how data can improve people's lives when managed with purpose. Our mission is to build bridges between complex information and human connection through technology.
+We believe in the power of decentralization, especially within ecosystems like **IOTA**, and we're committed to making quality education accessible to everyone.
 
 ---
 
 ## Educational Model
 
-We offer a structured learning path designed to take users from novices to Web3 experts.
-
 ### Free Courses (Foundation)
 
-Designed for maximum accessibility:
+- **Open Access** — No login required to learn
+- **Mobile-First** — Study anywhere, anytime
+- **Bilingual** — Full EN/ES support
+- **Track Progress** — Sync across devices when logged in
 
-- Open access for everyone, no login required to view content
-- Fully dynamic content loaded from database
-- Logged users can track progress and earn badges
-- Available courses: Web3 Basics, Crypto 101, Blockchain Dev, CBDC
+**Available**: Web3 Basics, Crypto 101, Blockchain Dev, CBDCs
 
 ### Premium Courses (Specialization)
 
-Advanced content with strict progression:
+- **Sequential Unlocking** — Master each section before advancing
+- **Certification Ready** — Deep-dive content for professionals
 
-- Requires login and subscription
-- Sequential content progressively unlocked
-- Advanced courses: DeFi Deep Dive, NFT Masterclass, Smart Contracts 101, Portfolio Management
+**Available**: DeFi Deep Dive, NFT Masterclass, Smart Contracts 101, Portfolio Management
 
-### Learning Structure
+---
 
-- Modular design with 6-9 sections per course
-- Dynamic engine with SQL/JSON content for instant updates
-- Interactive quizzes with immediate feedback at the end of each section
-- Progress persistence synchronized across devices for registered users
-- Full multilingual support in English and Spanish
+## Crypto Quiz Challenge
+
+Test your knowledge and **earn real MEMO tokens** on Ethereum Sepolia!
+
+| Mode         | Description                                              |
+| ------------ | -------------------------------------------------------- |
+| **Classic**  | 10 questions, progressive difficulty, category selection |
+| **Survival** | 3 lives, unlimited questions — how far can you go?       |
+| **Daily**    | _(Coming Soon)_ Random category, 2x rewards              |
+
+### Rewards
+
+- Score **8/10+** to earn MEMO tokens
+- **Speed Bonus**: +50% (< 3s), +25% (< 5s)
+- **Streak Multiplier**: 1.5x at 3+, 2x at 5+
+
+### Player Ranks
+
+| Novato | Aprendiz | Experto | Maestro | Leyenda |
+| :----: | :------: | :-----: | :-----: | :-----: |
+|   0+   |   100+   |  500+   | 2,000+  | 10,000+ |
 
 ---
 
 ## Achievement System
 
-The platform features a gamified progression system with **8 unique badges** distributed across 4 rarity tiers:
+**8 unique badges** across 4 rarity tiers:
 
-**Common**: First Steps (first section completed), Course Graduate (full course completed)
-
-**Rare**: Speed Learner (course completed in under 24h), Dedicated Student (5 courses completed)
-
-**Epic**: DeFi Master (all DeFi courses), Perfect Score (100% on final assessment), Knowledge Seeker (50 sections completed)
-
-**Legendary**: Crypto Expert (10 courses completed)
+| Tier          | Badges                                       |
+| ------------- | -------------------------------------------- |
+| **Common**    | First Steps, Course Graduate                 |
+| **Rare**      | Speed Learner, Dedicated Student             |
+| **Epic**      | DeFi Master, Perfect Score, Knowledge Seeker |
+| **Legendary** | Crypto Expert                                |
 
 ---
 
-## Technology Stack
+## Tech Stack
 
-| Layer | Technology |
-|-------|------------|
-| Frontend | Next.js 15 (App Router), React 19, Tailwind CSS |
-| UI/UX | Radix UI, Lucide React, Framer Motion |
-| Database | Supabase (PostgreSQL), Prisma 7 |
-| Communications | Brevo (Email API) |
-| DevOps | GitHub Actions |
-
-### Key Technical Features
-
-**Robust Authentication**: Hybrid system using `@supabase/ssr` with httpOnly cookies for secure SSR in Next.js 15, featuring client-server synchronization and automatic session refresh.
-
-**Dynamic Content Engine**: Content decoupled from code, stored in SQL tables with JSONB for rich text and components. Native localization support for en/es within the same database row.
-
-**High-Performance Newsletter System**: Built with Next.js Server Actions for secure, low-latency processing, featuring real-time validation and personalized preference engine.
+| Layer          | Technologies                                      |
+| -------------- | ------------------------------------------------- |
+| **Frontend**   | Next.js 15, React 19, Tailwind CSS, Framer Motion |
+| **Backend**    | Supabase (PostgreSQL), Prisma 7, Server Actions   |
+| **Auth**       | Privy (Web3 wallets), Supabase Auth (email)       |
+| **Blockchain** | Ethereum Sepolia, MEMO ERC-20 Token               |
+| **DevOps**     | Vercel, GitHub Actions                            |
 
 ---
 
 ## Featured Projects
 
-Our repositories reflect our mission to innovate and educate:
-
-- **IOTA NFT Marketplace**: Platform for minting and trading NFTs with a focus on efficiency and user experience
-- **zkLogin Integration**: Implementation of secure, gasless authentication to facilitate mass Web3 adoption
+- **IOTA NFT Marketplace** — Efficient NFT minting and trading
+- **zkLogin Integration** — Gasless, secure Web3 authentication
 
 ---
 
-## How to Contribute
+## Contribute
 
-If you want to help us improve our projects or propose new ideas:
-
-1. Explore our technical repositories
-2. Review the contribution guidelines in each project
-3. Open an Issue or submit a Pull Request
+1. Explore our repositories
+2. Review contribution guidelines
+3. Open an Issue or submit a PR
 
 ---
 
-## Contact
-
-- **Location**: Spain
-- **GitHub**: [github.com/Memento-Academy](https://github.com/Memento-Academy)
-
----
-
-*Built with precision by the Memento Academy community*
+<div align="center">
+  
+  **Spain** • [github.com/Memento-Academy](https://github.com/Memento-Academy)
+  
+  *Built with precision by the Memento Academy community*
+  
+</div>
